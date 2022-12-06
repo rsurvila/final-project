@@ -1,0 +1,251 @@
+#title {
+  background-color:teal;
+  padding-bottom: 30px;
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-right: 30px;
+  padding-left: 60px;
+  font-family: 'Noto Serif Japense';
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Noto Serif Japense';
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: 'Noto Serif Japense';;
+}
+
+.nav-link{
+  font-family: 'Noto Serif Japense';
+  font-size: 1.2rem;
+}
+
+#PurposeTitle{
+  font-size: 50px;
+  font-family: 'DM Serif Display';
+}
+
+#Purpose{
+  background-color: white;
+  color: teal;
+  font-family: 'DM Serif Display';
+  font-size: 2.0rem;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.title-image{
+  width: 80%;
+  padding-top:15px;
+}
+
+#Education{
+  font-size:40px;
+  font-family: 'Kdam Thmor Pro';
+  text-align: center;
+  font-size: 2.0rem;
+  background-color: teal;
+  color:white;
+  padding-top:50px
+}
+
+.Education{
+  padding-bottom: 50px;
+  font-family: 'Kdam Thmor Pro';
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+  background-color: teal;
+}
+
+.Major{
+  font-style:italic;
+  font-family: 'Kdam Thmor Pro';
+}
+
+.Graduation{
+  font-weight:bold;
+  font-family: 'Kdam Thmor Pro''
+}
+
+.Education{
+  padding-top: 50px;
+  color: white;
+  padding-left: 50px;
+  font-family: 'Kdam Thmor Pro';
+  padding-bottom: 50px
+}
+
+#Experience{
+  text-align:center;
+  background-color:white;
+  color:teal;
+  font-family: 'Noto Serif Japense';
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#Certificates{
+  text-align: center;
+  background-color: teal;
+  color: white;
+  padding-top: 5%;
+  font-size: 2.0rem;
+  font-family: 'Kdam Thmor Pro';
+  font-weight:bold;
+}
+
+.Certificates{
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  font-family: 'Kdam Thmor Pro';
+  font-weight:bold;
+}
+
+.carousel-control{
+  padding: 5%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color:white;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:rgb(255, 166, 0);
+}
+
+#Skills{
+  background-color:white;
+  text-align:center;
+  color:teal;
+  padding-top: 50px;
+  font-family: 'DM Serif Display';
+  font-size: 2.0rem;
+}
+
+.Skills{
+  background-color:white;
+  padding-top: 50px;
+  text-align:center;
+  color:teal;
+  padding-left:90px;
+  font-family: 'DM Serif Display';
+  font-size: 20px;
+}
+
+.skills{
+  background-color:white;
+  text-align:center;
+  color:teal;
+  text-align:center;
+  padding-left: 90px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  color:teal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin:25px;
+}
+
+div.container{
+  text-align: center;
+  padding: 10px 20px;
+  padding-left:50px;
+  text-align: center;
+}
+
+.polaroid2 {
+  width: 150%;
+  background-color: white;
+  color:teal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin:25px;
+}
+
+#Links{
+  background-color:teal;
+  text-align:center;
+  color:white;
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family: 'Kdam Thmor Pro';
+}
+
+.resume-header{
+  color: white;
+  text-align: center;
+  background-color:teal
+}
+
+.resume-column{
+  padding: 3% 2%;
+  
+}
+
+.card{
+  background-color:teal;
+  color:white
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center
+}
+
+.social-icon{
+  margin: 20px 10px
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0)
+  }
+}
